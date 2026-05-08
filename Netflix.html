@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="Netflixstyle.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h1>NETFLIX</h1>
+    <input type="text" id="searchInput" placeholder="Search movies..." />
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h2>Loading...</h2>
+      <p>Please wait</p>
+    </div>
+  </header>
+
+  <section class="row">
+    <h3>Popular</h3>
+    <div class="movies" id="movieRow"></div>
+  </section>
+
+  <section class="row">
+    <h3>Trending</h3>
+    <div class="movies" id="trending"></div>
+  </section>
+
+  <section class="row">
+    <h3>Top Rated</h3>
+    <div class="movies" id="toprated"></div>
+  </section>
+
+  <section class="row">
+    <h3>❤️ My List</h3>
+    <div class="movies" id="myList"></div>
+  </section>
+
+  <section class="row">
+    <h3>▶️ Continue Watching</h3>
+    <div class="movies" id="continue"></div>
+  </section>
+
+  <script src="Netflixscript.js"></script>
+
+</body>
+</html>
