@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://netflix-clone-vv25.onrender.com";
 const IMG_URL = "https://image.tmdb.org/t/p/w500";
 
 let myList = JSON.parse(localStorage.getItem("myList")) || [];
