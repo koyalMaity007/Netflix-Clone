@@ -71,7 +71,7 @@ project-folder/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/koyalMaity007/Netflix-Clone.git
 ```
 
 Install backend dependencies:
@@ -98,6 +98,6 @@ Open `Netflix.html` in your browser.
 
 ---
 
-## 📸 Preview
+## 📸 Website Screenshot
 
-Netflix-style responsive movie streaming UI powered by TMDB API.
+![Netflix Clone Preview](./Netflix-cloneScreenshot.png)
